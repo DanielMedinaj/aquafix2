@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=StyleSheet type="text/css" href="Bootstrap/css/bootstrap.min.css">
+  
+    <link rel=StyleSheet type="text/css" href="css/estilo.css">
+	
+	<title>ACUAFIX...Mantenimiento de albercas</title>
+</head>
+<body>
+	<header>
+			<div class="row">
+			<div class="col-xs-12 col-md-9">
+			<h1>
+				AQUAFIX - MANTENIMIENTO DE ALBERCAS		
+			
+			</h1>
+			</div>
+			<div class="col-xs-12 col-md-3">
+			<p>Envíanos tus datos para contactarte:   <button class="btn btn-primary" onclick="window.location.href='../Clientes.php'">Contacto</button></p>	
+			
+
+			</div>
+		</div>
+	</header>
+		
+<section class="main row">
+	<article class="col-xs-12 col-sm-8 col-md-9">
+		<p>
+			<img src="imagenes/alberca.jpg" class="izquierda" alt="IMAGEN DEL PERFECTISIMO Daniel" width="470">
+			<h3>¿QUÉ CAPACIDAD TIENE MI ALBERCA?</h3>
+			
+			
+			Antes de empezar cualquier tratamiento en su alberca, debe conocer cual es su capacidad. De esta forma se podrá calcular exactamente la dosis de productos quimicos que deberá acondicionar el agua. <br><br>
+		</p>	 
+	
+		<p>
+			<h3>TIPOS DE ALBERCA</h3>
+			<ul>
+			<li>Alberca circular</li>
+			<li>Alberca rectangular/cuadrada</li>
+			<li>Alberca ovalada</li>
+			</ul>
+		</p>	
+			
+
+	</article>
+<aside class="col-xs-12 col-sm-4 col-md-3">
+	<p>
+		
+<form action="php/volumen.php" method="GET">
+  <div class="form-group">
+    <label for="exampleInputEmail1">LONGITUD</label>
+    <input type="text" class="form-control" name="longitud" aria-describedby="emailHelp" placeholder="INGRESE LONGITUD">
+    </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">ANCHURA</label>
+    <input type="text" class="form-control" name="anchura" placeholder="INGRESE ANCHURA">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">PROFUNDIDAD MEDIA</label>
+    <input type="text" class="form-control" name="profundidad" aria-describedby="emailHelp" placeholder="INGRESE PROFUNDIDAD MEDIA">
+    </div>
+  <button type="submit" class="btn btn-primary">CALCULAR</button>
+</form>
+
+</p>
+
+	
+</aside>
+</section>	
+
+
+<!--********************************************************************************************************************-->
+
+
+
+
+
+
+
+
+
+
+<!--*******************************************************************************************************************-->
+
+
+<div class="row">
+	
+	<div class="col-xs-12 col-md-9">
+		<p>
+			<h4>PARA CALCULAR EL VOLUMEN EN TODOS LOS CASOS DEBE USAR LA SIGUIENTE FORMULA:</h4>
+			Longitud (m) X anchura(m) X profundidad media(m) = volumen(m)
+		</p>
+	</div>
+	
+
+<div class="color2 col-xs-12 col-md-3">
+		<p>
+			
+		<h4>NO OLVIDAR NUNCA</h4>
+		<ul>
+		<li>Mantener un nivel correcto de agua</li>
+		<li>Ante cualquier amenaza de lluvia, aumente el nivel de cloro</li>
+		<li>Cuando haga aportaciones de agua nueva, analice el nivel de cloro y el ph necesario</li>
+
+		</ul>
+
+		<!--	<h4>CALCULA EL VOLUMEN DE TU ALBERCA</h4>
+			<img src="imagenes/calculadora.jpg" alt="" align="center" width="192" border="3">
+    <p>Ingresa los datos que se te solicitan a continuación</p>
+    <form action="php/volumen.php" method="GET"> 
+    Longitud:<input type="text" name="longitud" placeholder="Ingrese la longitud"> <br>
+    Anchura:<input type="text" name="anchura" placeholder="Ingrese la anchura"> <br>
+    Profundidad media:<input type="text" name="profundidad" placeholder="Ingrese la prof. media"><br>
+    <input type="submit" name="enviar" button class="btn btn-primary"> -->
+
+
+
+
+
+
+
+
+		</p>
+	</div>
+
+
+
+</div>
+
+
+<footer>
+	<div class="container">
+	<h5>
+	<a href="index2.html">Acerca de mi</a>
+	</h5>	
+	</div>
+	
+</footer>
+
+
+
+
+
+
+
+
+<script src="Bootstrap/js/jquery.js"></script>
+<script src="Bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
